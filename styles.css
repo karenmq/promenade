@@ -179,16 +179,27 @@ p {
     }
     
     .centered {
-        padding: 40px;
+        padding: 90px;
         overflow: auto;
     }
 
+}
+
+@media screen and (max-width: 1600px) {
+    
+    .centered {
+        padding: 80px;
+    }
 }
 
 @media screen and (max-width: 500px){
     
     a {
         color: #CF8E26;
+    }
+    
+    a.name {
+        color: black;
     }
     
     h1 {
@@ -201,6 +212,14 @@ p {
     
     .left {
         background-image: url("web-image-mobile.jpg");
+    }
+    
+    .centered {
+        padding: 20px;
+    }
+    
+    .title {
+        padding: 10px;
     }
 
 }
