@@ -68,7 +68,6 @@ p {
   right: 0;
   font-family: Cambria, serif;
   overflow: auto;
-    
 }
 
 .centered {
@@ -89,7 +88,7 @@ p {
   margin-top: 20px;
   text-align: left;
   transition: 0.3s;
-  width: 150px
+  width: 150px;
 }
 
 .toggle:hover {
@@ -123,7 +122,7 @@ p {
   text-align: left;
   transition: 0.4s;
   outline: none;
-  width: 100%
+  width: 100%;
 }
 
 .active, .collapsible:hover {
@@ -143,10 +142,10 @@ p {
     height: 2px;
     margin-top: 30px;
     margin-bottom: 30px;
-    width: 50%
+    width: 50%;
 }
 
-.single{
+.single {
     margin-top: 40px;
     margin-bottom: 40px;
 }
@@ -168,6 +167,7 @@ p {
       display: flex;
       flex-wrap: wrap;
       width: 100%;
+        
     }
 
     .right {
@@ -176,16 +176,21 @@ p {
       font-family: Cambria, serif;
       overflow: auto;
       width: 100%;
-
     }
     
     .centered {
         padding: 40px;
+        overflow: auto;
     }
-   
+
 }
 
 @media screen and (max-width: 500px){
+    
+    a {
+        color: #CF8E26;
+    }
+    
     h1 {
         font-size: 50px;
     }
