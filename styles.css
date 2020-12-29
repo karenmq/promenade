@@ -192,7 +192,7 @@ p {
     }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 751px){
     
     a {
         color: #CF8E26;
@@ -220,6 +220,10 @@ p {
     
     .title {
         padding: 10px;
+    }
+    
+    #back {
+        width: 170px;
     }
 
 }
