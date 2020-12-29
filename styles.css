@@ -192,7 +192,7 @@ p {
     }
 }
 
-@media screen and (max-width: 751px){
+@media screen and (max-width: 500px){
     
     a {
         color: #CF8E26;
@@ -203,7 +203,7 @@ p {
     }
     
     h1 {
-        font-size: 60px;
+        font-size: 50px;
     }
     
     ol {
